@@ -1,0 +1,42 @@
+
+body{
+    background-color: #0087E2;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    
+    
+}
+.border{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+header,footer{
+    padding: 20px;
+    width: 20cm;
+    margin:0 auto;
+}
+
+.inline{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav{
+    padding-left: 2.5cm;
+    padding-right: 2.5cm;
+    padding-top: 5cm;
+    padding-bottom: 5cm;
+}
+
+section{
+    padding-left: 6.5cm;
+    padding-right: 6.5cm;
+    padding-top: 5cm;
+    padding-bottom: 5cm;
+    margin-left: 5px;
+}
