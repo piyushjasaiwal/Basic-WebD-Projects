@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+        function checkformdata(){
+
+var tname = document.getElementById('name').value;
+
+var tage = document.getElementById('age').value;
+
+var temail = document.getElementById('email').value;
+
+var male = document.getElementById('gender1').checked;
+
+var female = document.getElementById('gender2').checked;
+
+var terms = document.getElementById('chk').checked;
+
+var message = "Name --> " + tname +"\nAge --> " + tage + "\ntE-mail --> " + temail + "\nMale --> " +  male + "\nFemale --> "+female + "\n Terms and Condition --> " + terms;
+
+document.getElementById('thepara').innerHTML = message;
+
+}
+    </script>
+</head>
+<body>
+    <p id="thepara"></p>
+    <form action="http://www.google.com" method="GET">
+        <fieldset>
+            <legend>Basic Credentials</legend>
+            <p>
+                Your Name:
+                <input type="text" id = "name">
+            </p>
+
+            <p>
+                Your age : <input type="text" id="age">
+            </p>
+
+            <p>
+                Your Email : <input type="email" id = "email">
+            </p>
+
+            <p>
+                Gender: <br>
+                male:<input type="radio" id="gender1"><br>
+                female : <input type="radio" id="gender1">
+            </p>
+
+            <p>
+                <input type="checkbox" id="chk"> Agree To All Terms
+            </p>
+
+            <p>
+                <input type="button" name = "submit" value = "SUBMIT" onclick = checkformdata()>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
