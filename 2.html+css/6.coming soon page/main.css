@@ -1,0 +1,32 @@
+section{
+    display: block;
+    height: 5cm;
+    width: 20cm;
+    margin:0 auto;
+    font-family:sans-serif;
+}
+
+header{
+    margin-top: 5cm;
+    margin-bottom: 1cm;
+    font-size: 1cm;
+    color: rgb(5, 202, 202);
+}
+
+article,footer{
+    margin-bottom: 2cm;
+    font-size: 0.75cm;
+    color: red;
+}
+
+
+footer{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}

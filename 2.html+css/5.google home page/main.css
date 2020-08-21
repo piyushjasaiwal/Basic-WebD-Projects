@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+}
+
+.topbar{
+    float: right;
+;
+}
+
+.topicon{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.topicon a{
+    text-decoration: none;
+    color: cadetblue;
+    margin-left: 0.4cm;
+}
+
+.signinbutton a{
+    color: whitesmoke;
+    background-color: rgb(29, 29, 248);
+    border-radius: 5px;
+    padding :10px;
+}
+
+header{
+    clear: both;
+
+    margin-top: 4cm;
+}
+
