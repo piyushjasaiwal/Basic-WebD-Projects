@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+.top{
+    list-style-type: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 0.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+nav img{
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 100%;
+}
