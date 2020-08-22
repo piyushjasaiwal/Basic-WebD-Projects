@@ -12,7 +12,7 @@ function checkformdata(){
 
     var terms = document.getElementById('chk').checked;
 
-    var message = "Name --> " + tname +"\nAge --> " + tage + "\ntE-mail --> " + temail + "\nMale --> " +  male + "\nFemale --> "+female + "\n Terms and Condition --> " + terms;
+    var message = "Name --> " + tname + "<br>Age --> " + tage + "<br>tE-mail --> " + temail + "<br>Male --> " +  male + "<br>Female --> "+female + "<br>Terms and Condition --> " + terms;
     
     document.getElementById('thepara').innerHTML = message;
     

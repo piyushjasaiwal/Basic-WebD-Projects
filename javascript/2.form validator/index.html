@@ -4,29 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 
-    <script>
-        function checkformdata(){
-
-var tname = document.getElementById('name').value;
-
-var tage = document.getElementById('age').value;
-
-var temail = document.getElementById('email').value;
-
-var male = document.getElementById('gender1').checked;
-
-var female = document.getElementById('gender2').checked;
-
-var terms = document.getElementById('chk').checked;
-
-var message = "Name --> " + tname +"\nAge --> " + tage + "\ntE-mail --> " + temail + "\nMale --> " +  male + "\nFemale --> "+female + "\n Terms and Condition --> " + terms;
-
-document.getElementById('thepara').innerHTML = message;
-
-}
-    </script>
 </head>
 <body>
     <p id="thepara"></p>
@@ -35,21 +14,21 @@ document.getElementById('thepara').innerHTML = message;
             <legend>Basic Credentials</legend>
             <p>
                 Your Name:
-                <input type="text" id = "name">
+                <input type="text" id = "name" name="tname">
             </p>
 
             <p>
-                Your age : <input type="text" id="age">
+                Your age : <input type="text" id="age" name="tage">
             </p>
 
             <p>
-                Your Email : <input type="email" id = "email">
+                Your Email : <input type="email" id = "email" name="temail">
             </p>
 
             <p>
                 Gender: <br>
-                male:<input type="radio" id="gender1"><br>
-                female : <input type="radio" id="gender1">
+                male:<input type="radio" id="gender1" name="gender"><br>
+                female : <input type="radio" id="gender2" name="gender">
             </p>
 
             <p>
@@ -57,7 +36,7 @@ document.getElementById('thepara').innerHTML = message;
             </p>
 
             <p>
-                <input type="button" name = "submit" value = "SUBMIT" onclick = checkformdata()>
+                <input type="button" name = "submit" value = "SUBMIT" onclick = "checkformdata();">
             </p>
         </fieldset>
     </form>
