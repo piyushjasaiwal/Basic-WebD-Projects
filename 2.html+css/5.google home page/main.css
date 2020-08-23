@@ -4,7 +4,6 @@
 
 .topbar{
     float: right;
-;
 }
 
 .topicon{
@@ -26,9 +25,70 @@
     padding :10px;
 }
 
-header{
+.maingoogle {
     clear: both;
-
-    margin-top: 4cm;
+    display: inline-block;
+    margin-left: 19cm;
+    margin-top: 7cm;
+    margin-bottom: 7cm;
 }
 
+.maingoogle header{
+    margin-left: 1.5cm;
+    margin-bottom: 0.5cm;
+}
+
+.maingoogle header img{
+    height: 4cm;
+}
+
+#query{
+    height: 1cm;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 5cm;
+    height: 1cm;
+    border:2px solid black;
+    border-radius: 5px;
+    font-size: larger;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+.left_list, .right_list{
+    display: inline-block;
+    list-style-type: none;    
+}
+
+.left_list a, .right_list a{
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.left_list{
+    margin-right: 0.5cm;
+}
+
+.right_list{
+    margin-left: 0.5cm;
+}
