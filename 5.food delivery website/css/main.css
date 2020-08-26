@@ -155,7 +155,7 @@
     display: flex;
     flex-flow: column;
     padding-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 /* #partners h1{
@@ -186,3 +186,23 @@
     height: 100px;
     padding: 52px;
 }
+
+#contactform{
+    display: flex;
+    width: 100%; 
+    flex-flow: column;
+    justify-content: center;
+}
+
+#contactform::before{
+    content: "";
+    background-image: url(../images/img/bg/contact.jpg);
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
