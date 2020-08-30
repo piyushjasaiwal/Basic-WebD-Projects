@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 2.5cm;
+    width: 100%;
+    align-items: center;
+}
+
+#navbar::before{
+    content : "";
+    background-color: rgb(53, 49, 49);
+    height: 2.5cm;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+
+#navbar li{
+    list-style-type: none;
+    
+}
+
+#navbar li a{
+    margin: 15px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+}
+#navbar li a:hover{
+    background-color: rgb(22, 21, 21);
+}
+
+#home{
+    width: 100%;
+    height: 10cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/nature_background.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 80%;
+    z-index:-1;
+    opacity:8;
+}
+
+.big_text{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2cm;
+}
