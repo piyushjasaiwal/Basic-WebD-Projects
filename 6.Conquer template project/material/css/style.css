@@ -36,6 +36,7 @@
     color: white;
     text-decoration: none;
     border:1px solid white;
+    font-family: 'Krona One', sans-serif;;
 }
 #navbar li a:hover{
     background-color: rgb(22, 21, 21);
@@ -43,7 +44,7 @@
 
 #home{
     width: 100%;
-    height: 10cm;
+    height: 12cm;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,13 +58,229 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 70%;
+    height: 75%;
     z-index:-1;
     opacity:8;
 }
 
 .big_text{
-    color: white;
+    color: rgb(141, 255, 11);
+    font-weight: bolder;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 5rem;
+}
+
+#about{
+    display:flex;
+    flex-flow: column;
+}
+
+#smallboxes{
+    display:flex;
+    height:15cm;
+    width:100%;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallbox{
+    height:100%cm;
+    padding-left: 0.5cm;
+    padding-right:0.5cm;
+    padding-top: 0.5cm;
+    width:10cm;
+    margin-left: 1cm;
+    margin-top:3cm;
+    margin-bottom: 3cm;
+    background-color: rgb(247, 241, 241);
+}
+
+.smallbox img{
+    height:7cm;
+    width:10cm;
+
+}
+
+.smallbox h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 2.5rem;
+}
+
+.smallbox p{
+    font-family: 'Roboto', sans-serif;
+}
+
+#smallboxes div button{
+    height: 1cm;
+    width: 3.5cm;
+    /* margin:2 auto; */
+    margin-top:0.5cm;
+    margin-bottom: 1cm;
+    margin-left:33%;
+    font-size: 0.5cm;
+    border-radius: 8px;
+    border-width: 0;
+    cursor:pointer;
+    font-family:sans-serif;
+    color: white;
+}
+
+#left h2{
+    color:green;
+}
+
+#left button{
+    background-color: rgb(9, 209, 9);
+}
+
+#mid h2{
+    color:blue;
+}
+
+#mid button{
+    background-color: rgb(50, 138, 252);
+}
+
+#right h2{
+    color:red;
+}
+
+#right button{
+    background-color: rgb(226, 64, 0);
+}
+
+#bigboxes{
+    display: flex;
+    flex-flow: row;
+    width:100%;
+    height:19cm;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1cm;
+}
+
+.largebox{
+    width: 15cm;
+    height: 15cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    display: flex;
+    flex-flow:column;
+    align-content:center;
+    justify-content: center;
+    margin-top:1cm;
+    background-color: rgb(247, 241, 241);
+    padding:0.5cm
+}
+.largebox img{
+    height:6cm;
+    width:15cm;
+    border-radius:100%;
+    margin-bottom:0.5cm;
+}
+
+.largebox h2{
+    color:rgb(41, 41, 41);
+    text-align: center;
+    padding:0.5cm;
+    font-size:2.5rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+.largebox p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.largebox button{
+    font-family: 'Poppins', sans-serif;
+    height:3cm;
+    width:6cm;
+    border-radius: 30%;
+    border-width:0;
+    background-color: white;
+    font-size:1.5em;
+    margin-left:60%;
+    cursor:pointer;
+}
+
+#services{
+    height:10cm;
+    width:100%;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5cm;
+}
+
+#services::before{
+    content:"";
+    position: absolute;
+    background-image: url(../images/service.jpg);
+    height: 10cm;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#services h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    margin: 0.5cm;
+    color: white;
+}
+
+#services p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 0.6cm;
+}
+
+/* #moreboxes{
+
+} */
+
+#moresmallboxes{
+    display: flex;
+    flex-flow: row;
+    height:13cm;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.small_box{
+    height:13cm;
+    width:7cm;
+    margin:1cm;
+    background-color: rgb(227, 253, 244);
+}
+
+.small_box img{
+    height:5cm;
+    width:7cm;
+}
+
+.small_box h1{
+    color: blue;
+    font-family: 'Baloo 2', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.small_box p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(80, 0, 17);
+    margin: 0.5cm;
+}
+
+.small_box button{
+    height: 1cm;
+    width: 2cm;
+    border:solid grey 1px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 35%;
 }
