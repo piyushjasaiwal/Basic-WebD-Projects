@@ -1,0 +1,59 @@
+header{
+    background-color: rgb(65, 54, 54);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding : 5px;
+    color: white;
+    display: block;
+}
+
+nav{
+    background-color: rgb(221, 216, 216);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav ul{
+    display: block;
+    list-style-type: none;
+    display: inline;
+}
+
+nav li{
+    display: inline;
+    font-size: x-large;
+    margin-left:25px;
+    margin-right:25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+article{
+    width: 700px;
+    margin: 0 auto;
+}
+
+h2{
+    color: darkslategrey;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+p{
+    color: darkslategrey;
+    font-size: large;
+}
+
+footer{
+    background-color: rgb(65, 54, 54);
+    font-size: larger;
+    color : white;
+    text-align: center;
+    padding: 10px;
+}
+

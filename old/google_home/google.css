@@ -1,0 +1,19 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    left: 0px;
+}
+header ul li{
+    display: inline !important;
+    
+}
+
+figure{
+    clear: both;
+}
