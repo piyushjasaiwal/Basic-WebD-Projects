@@ -1,0 +1,27 @@
+
+*{
+ margin: 0;
+ padding: 0;    
+}
+
+#navbar{
+    display: flex;
+    flex-flow:column;
+    height: 6cm;
+    justify-content: center;
+}
+
+
+#navbar::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 6cm;
+    width: 100%;
+    z-index:-1;
+}
+#centralbar{
+    margin-bottom: 25px;
+}
