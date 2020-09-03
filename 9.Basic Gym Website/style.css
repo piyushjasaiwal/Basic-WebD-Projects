@@ -76,7 +76,8 @@ a:hover{
     border-radius: 10%;
     text-align: center;
     margin-top: 15px;
-    margin-left: 20px;;
+    margin-left: 20px;
+    box-shadow: 10px 10px white;
 }
 
 #details h2{
