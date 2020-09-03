@@ -79,6 +79,7 @@
     width: 7cm;
     border-radius: 8%;
     outline: none;
+    background-color: wheat;
 }
 
 #right button{
@@ -93,11 +94,12 @@
 #intro_article{
     display:flex;
     flex-flow: row;
-    height:16cm;
+    height:12cm;
     width: 100%;
     /* border:solid white 5px; */
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    margin-top:4cm
 }
 
 #article{
@@ -107,7 +109,7 @@
 }
 
 #article p{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-right: 1cm;
     font-family: 'Baloo Bhaina 2', cursive;
     /* font-size: 0.5cm; */
@@ -134,4 +136,54 @@
 #buttons button:hover{
     background: rgb(243, 160, 160);
     color: rgb(2, 56, 2);
+}
+
+#feedform{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgb(219, 210, 210);
+    margin:15px;
+    border-radius: 15px;
+}
+
+#feedform h1{
+    font-size: 2cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(11, 81, 90)
+}
+
+input ,textarea{
+    width: 30cm;
+    height: 0.8cm;
+    margin: 0.3cm;
+    border: solid white 0px;
+    border-radius: 3%;
+    outline: none;
+    font-family:'Ubuntu', sans-serif;
+    font-size: larger;
+    background-color: rgb(255, 255, 179);
+}
+
+textarea{
+    height: 4cm;
+}
+
+#footer{
+    display:flex;
+    justify-items: center;
+    padding-left: 48%;
+    align-items: center;
+    background-color: rgb(58, 57, 57);
+    height: 1.5cm;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8cm;
+    color :white;
+}
+
+#icon{
+    margin-right:5px;
 }
