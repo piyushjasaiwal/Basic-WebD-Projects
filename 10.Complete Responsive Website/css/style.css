@@ -128,4 +128,10 @@
     border:solid 3px black;
     border-radius: 10px;
     cursor: pointer;
+    padding:5px;
+}
+
+#buttons button:hover{
+    background: rgb(243, 160, 160);
+    color: rgb(2, 56, 2);
 }
