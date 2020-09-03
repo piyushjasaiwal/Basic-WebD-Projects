@@ -4,8 +4,10 @@
 }
 
 #intro{
-    background: url(../images/bg1.jpg);
+    background: url(../images/bg-test.jpg);
     background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
 } 
 
 
@@ -48,7 +50,7 @@
 
 #left li a{
     text-decoration:none;
-    color: blue;
+    color: rgb(253, 253, 253);
     margin-right: 45px;
 }
 
@@ -105,7 +107,7 @@
 }
 
 #article p{
-    color: rgb(35, 1, 66);
+    color: white;
     margin-right: 1cm;
     font-family: 'Baloo Bhaina 2', cursive;
     /* font-size: 0.5cm; */
