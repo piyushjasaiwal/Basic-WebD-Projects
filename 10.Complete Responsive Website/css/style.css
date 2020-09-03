@@ -77,9 +77,11 @@
     margin-right: 30px;
     height: 1cm;
     width: 7cm;
-    border-radius: 8%;
+    border-radius: 10%;
     outline: none;
-    background-color: wheat;
+    /* background-color: wheat; */
+    background: none;
+    border:solid purple 3px;
 }
 
 #right button{
@@ -89,6 +91,11 @@
     background-color: rgb(253, 247, 247);
     cursor:pointer;
     outline: none;
+    border-radius: 45px;
+    color: white;
+    background: black;
+    border:solid white 3px;
+    font-size:20px;
 }
 
 #intro_article{
