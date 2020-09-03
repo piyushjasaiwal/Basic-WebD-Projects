@@ -1,44 +1,61 @@
-// Unfinished project
+sta = document.getElementById("start");
+sta.addEventListener('click',start_timer);
 
-var temp = 0;
+
+sto = document.getElementById('stop');
+sto.addEventListener('click',stop_timer);
+
+
+res = document.getElementById('reset');
+res.addEventListener('click',reset_timer);
+
+let time = 0;
 
 function start(){
-    temp = temp+1;
-    var hours = temp/3600;
-    // hours = get_accurate(hours+"");
-    var time = temp%3600;
-    var minute = temp/60;
-    // minute = get_accurate(minute+"");
-    time = temp%60;
-    var seconds = time;
-    var curr = hours + " hrs : "+minute + " min : "+seconds + " sec";
-    document.getElementById("time").innerHTML = curr;
+    time = time+1;
+    let temp = time;
+    let hours = Math.floor(temp/3600);
+    temp = temp%3600;
+    let minutes = Math.floor(temp/60);
+    temp = temp%60;
+    let second = temp;
+    let  ans = "";
+    if(hours<=9){
+        ans = 0+""+hours+" hours : ";
+    }else{
+        ans = hours+" hours : ";
+    }
+
+    if(minutes<=9){
+        ans = ans + 0+""+minutes+" minutes : ";
+    }else{
+        ans = ans + minutes+" minutes : ";
+    }
+
+    if(second<=9){
+        ans = ans + 0+""+second+" seconds";
+    }else{
+        ans = ans + second+" seconds";
+    }
+
+    time_stamp = document.getElementById("time");
+    time_stamp.innerHTML = ans+"";
 }
 
-var to_stop;
+let myvar ;
 
 function start_timer(){
-    to_stop = setInterval(start,1000);
+
+    myvar = setInterval(start,1000);
 }
 
 function stop_timer(){
-    clearInterval(to_stop);
+    clearInterval(myvar);
 }
 
 function reset_timer(){
-    clearInterval(to_stop);
+    clearInterval(myvar);
     time = 0;
-    document.getElementById("time").innerHTML = "00 hours : 00 minute : 00 seconds";
+    document.getElementById("time").innerHTML = "00 hours : 00 minutes : 00 seconds";
 }
 
-function get_accurate(val){
-    var ans = "";
-    for(var i = 0;i<val.length();i++){
-        if(val.charAt(i) == "."){
-            return ans;
-        }else{
-            ans = ans+val.charAt(i);
-        }
-    }
-    return ans;
-}
