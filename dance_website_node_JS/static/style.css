@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: rgb(26, 238, 238);
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 18px 34px;
+    margin: 11px 32px;
+    background: black;
+    border: solid white 3px;
+    color: white;
+    border-radius: 23px;
+    font-size: 20px;
+}
+
+#navbar a li{
+    list-style-type: none;
+}
