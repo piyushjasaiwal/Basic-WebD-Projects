@@ -5,7 +5,7 @@ const app = express()
 const port = 80
 
 //for serving the static files
-app.use('\static',express.static('static'));
+app.use('/static',express.static('static'));
 
 
 //pug specific stuff

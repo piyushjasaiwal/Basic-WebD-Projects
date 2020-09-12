@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(../images/bg1.jpg);
 }
 
 #navbar{
@@ -8,6 +12,9 @@
     flex-flow: row;
     justify-content: center;
     background-color: rgb(26, 238, 238);
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar a {
@@ -23,4 +30,94 @@
 
 #navbar a li{
     list-style-type: none;
+}
+
+#main{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: 0px -624px/ cover no-repeat url("https://cdn.pixabay.com/photo/2014/05/03/01/02/concert-336695_1280.jpg");
+}
+
+#main p{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+p{    
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+#mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    height: 234px;
+    width: 386px;
+    box-shadow: 5px 5px rgb(104, 103, 103);
+    border: solid black 5px;
+    border-radius: 27px;
+}
+
+.card h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card div p{
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 38px 0px
+}
+
+.card div img{
+    height: 179px;
+    margin: 6px 9px;
+}
+
+.card div{
+    display: flex;
+    flex-flow: row;
+}
+
+#our{
+    margin:30px 0px;
+}
+
+#contact{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 1340px;
+    height: 444px;
+    background-color: rgb(120, 158, 214);
+    margin: 37px 72px;
+    border: solid black 10px;
+    border-radius: 166px;
+}
+
+input,textarea{
+    height: 39px;
+    width: 473px;
+    border: solid black 3px;
+    border-radius: 17px;
+    outline: none;
+    margin: 10px;
+}
+
+#contact h2{
+    font-size: 15px;
+    font-weight: 45px;
 }
