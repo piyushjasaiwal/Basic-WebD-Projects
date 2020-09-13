@@ -1,0 +1,41 @@
+@media only screen and (max-width:700px){
+    *{
+        margin: 2px;
+        padding: 2px;
+    }
+    
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        height: 302px;
+        align-items: center;
+        position: relative;
+    }
+
+    
+
+    #navbar::before{
+        background: none;
+    }
+    
+    #left,#right{
+        display: flex;
+        flex-direction: column;
+    }
+    #right input{
+        background-color: white;
+    }
+
+    #footer div{
+        margin-left: 26%;
+    }
+
+    .card{
+        display: flex;
+        flex-flow: row;
+    }
+
+    .burger{
+        display:flex;
+    }
+}
