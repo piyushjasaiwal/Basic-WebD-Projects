@@ -1,7 +1,11 @@
+@import "https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap";
+
 *{
     padding: 0;
     margin: 0;
 }
+
+
 
 #intro{
     background: url(../images/bg-test.jpg);
@@ -150,18 +154,22 @@
     flex-flow: column;
     align-items: center;
     background-color: rgb(219, 210, 210);
-    margin:15px;
+    margin:21px;
     border-radius: 15px;
+    width: 96%;
+    height: 628px;
+    justify-content: center;
 }
 
 #feedform h1{
     font-size: 2cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgb(11, 81, 90)
+    color:rgb(11, 81, 90);
+    
 }
 
 input ,textarea{
-    width: 1400px;
+    width: 100%;
     height: 0.8cm;
     margin: 0.3cm;
     border: solid white 0px;
@@ -179,7 +187,7 @@ textarea{
 #footer{
     display:flex;
     justify-items: center;
-    padding-left: 48%;
+    padding-left: 42%;
     align-items: center;
     background-color: rgb(58, 57, 57);
     height: 1.5cm;
@@ -193,4 +201,33 @@ textarea{
 
 #icon{
     margin-right:5px;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 15px;
+    padding: 15px;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+.card p{
+    font-size: 19px;
+    font-family:'Baloo Paaji 2', cursive;
+    margin:12px;
+}
+
+.card img{
+    height: 214px;
+    border-radius: 22%;
+    border: solid rgb(194, 170, 170) 2px;
 }
