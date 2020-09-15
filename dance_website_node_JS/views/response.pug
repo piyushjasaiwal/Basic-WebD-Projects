@@ -1,0 +1,23 @@
+extend base.pug
+block styles
+    style
+        include ../static/style.css
+
+block scripts
+    script(src='/static/script.js')
+
+block content
+    nav#navbar
+        a(href = '/'): li Home
+        a(href = '/'): li About Us
+        a(href = '/'): li Courses
+        a(href = '/'): li Support
+        a(href = '/contact'): li Contact Us
+
+    p#resp
+        |Your Response Has been Recorded
+
+block footer
+    div#footer
+            p 
+             | Copyright Piyush Jasaiwal

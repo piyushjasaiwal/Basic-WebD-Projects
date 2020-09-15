@@ -15,13 +15,15 @@ block content
         a(href = '/'): li Support
         a(href = '/contact'): li Contact Us
 
-    div#contact
-        h1 Contact Us
-        input(type="text" for="name" placeholder="Your Name")
-        input(type="text" for="age" placeholder="Your Age")
-        input(type="text" for="address" placeholder="Your Adress")
-        input(type="text" for="exp" placeholder="Any Experience")
-        textarea(name="views", cols="30", rows="10",placeholder="Any Opinion")
+    form(action="/contact", method="post")
+        div#contact
+            h1 Contact Us
+            input(type="text" for="name" placeholder="Your Name")
+            input(type="text" for="age" placeholder="Your Age")
+            input(type="text" for="address" placeholder="Your Adress")
+            input(type="text" for="exp" placeholder="Any Experience")
+            textarea(name="views", cols="30", rows="10",for = "opinion",placeholder="Any Opinion")
+            input#submit(type="submit")
 
 block footer
     div#footer

@@ -136,3 +136,14 @@ input,textarea{
     padding: 11px;
     margin-top: 45px;  
 }
+
+#submit{
+    width: 100px;
+}
+
+#resp{
+        font-size: 74px;
+        font-weight: 900;
+        text-align: center;
+        margin: 269px 0px;
+}
