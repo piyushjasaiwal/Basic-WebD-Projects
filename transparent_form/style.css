@@ -25,7 +25,7 @@ body::before{
     display: flex;
     flex-direction: column;
     margin-left: 703px;
-    margin-top: 255px;
+    margin-top: 203px;
     width: 15%;
 }
 h1{
@@ -39,7 +39,7 @@ h1{
     margin: 9px;
 }
 
-input{
+.inp{
     background: none;
     height: 8px;
     width: 278px;
@@ -48,4 +48,23 @@ input{
     border: none;
     border-bottom: solid rgb(224, 10, 207) 3px;
     font-size: 22px;
+}
+
+#btn{
+    height: 50px;
+    width: 115px;
+    margin: 25px;
+    margin-left: 108px;
+    padding: 4px;
+    border: none;
+    background: none;
+    border: solid rgb(224, 10, 207) 7px;
+    border-radius: 18px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
 }
