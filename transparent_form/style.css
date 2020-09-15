@@ -62,6 +62,7 @@ h1{
     border-radius: 18px;
     font-size: 22px;
     cursor: pointer;
+    outline: none;
 }
 
 #btn:hover{
