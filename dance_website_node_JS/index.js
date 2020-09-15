@@ -17,6 +17,10 @@ app.get('/',(req,res)=>{
     res.status(200).render('home.pug');
 });
 
+app.get('/contact',(req,res)=>{
+    res.status(200).render('contact.pug')
+})
+
 app.listen(port,()=>{
     console.log(`server is started at ${port}`);
 });

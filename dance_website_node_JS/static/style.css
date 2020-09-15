@@ -121,3 +121,18 @@ input,textarea{
     font-size: 15px;
     font-weight: 45px;
 }
+
+#footer{
+    color: white;
+    background-color: black;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    margin-top: 82px;
+}
+
+#footer p{
+    font-size: 26px;
+    padding: 11px;
+    margin-top: 45px;  
+}

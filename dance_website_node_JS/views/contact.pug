@@ -1,0 +1,29 @@
+extend base.pug
+
+block styles
+    style
+        include ../static/style.css
+
+block scripts
+    script(src='/static/script.js')
+
+block content
+    nav#navbar
+        a(href = '/'): li Home
+        a(href = '/'): li About Us
+        a(href = '/'): li Courses
+        a(href = '/'): li Support
+        a(href = '/contact'): li Contact Us
+
+    div#contact
+        h1 Contact Us
+        input(type="text" for="name" placeholder="Your Name")
+        input(type="text" for="age" placeholder="Your Age")
+        input(type="text" for="address" placeholder="Your Adress")
+        input(type="text" for="exp" placeholder="Any Experience")
+        textarea(name="views", cols="30", rows="10",placeholder="Any Opinion")
+
+block footer
+    div#footer
+            p 
+             | Copyright Piyush Jasaiwal
